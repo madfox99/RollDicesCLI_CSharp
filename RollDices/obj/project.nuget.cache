@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pGgMv4mfTYzclTLXPUZ17FPlF39vTMhw9UtQR+KP7FmgrHSs/pNsBtQLn67fKE/zY1qSbgqWEKSpELxMaUb3bw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\madfox99\\Desktop\\RollDices\\RollDices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\madfox99\\.nuget\\packages\\nstack.core\\1.0.3\\nstack.core.1.0.3.nupkg.sha512",
+    "C:\\Users\\madfox99\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512",
+    "C:\\Users\\madfox99\\.nuget\\packages\\terminal.gui\\1.8.2\\terminal.gui.1.8.2.nupkg.sha512"
+  ],
+  "logs": []
+}

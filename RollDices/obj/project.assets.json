@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "NStack.Core/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NStack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NStack.dll": {}
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Terminal.Gui/1.8.2": {
+        "type": "package",
+        "dependencies": {
+          "NStack.Core": "1.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Terminal.Gui.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Terminal.Gui.dll": {}
+        },
+        "resource": {
+          "lib/net6.0/fr-FR/Terminal.Gui.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net6.0/ja-JP/Terminal.Gui.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/pt-PT/Terminal.Gui.resources.dll": {
+            "locale": "pt-PT"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NStack.Core/1.0.3": {
+      "sha512": "CvduI58J+1dXFbPfPrBBhhfCexllRfZCTNRU4Ml+ZgYjJBPsh+8FlfKhj7XRDy2Pqn0pybofJIPu46gW30rqdA==",
+      "type": "package",
+      "path": "nstack.core/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/netstandard2.0/NStack.dll",
+        "logo48.png",
+        "nstack.core.1.0.3.nupkg.sha512",
+        "nstack.core.nuspec"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Terminal.Gui/1.8.2": {
+      "sha512": "/xdSVuf/BSfsu5ODQZAw5e92GCJWika4P8Wb261ENxJWFgDC3XzpS+HLgJgvH3mdiMTLoC0r7yvLoFUmYM7zpQ==",
+      "type": "package",
+      "path": "terminal.gui/1.8.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net472/Terminal.Gui.dll",
+        "lib/net472/Terminal.Gui.xml",
+        "lib/net472/fr-FR/Terminal.Gui.resources.dll",
+        "lib/net472/ja-JP/Terminal.Gui.resources.dll",
+        "lib/net472/pt-PT/Terminal.Gui.resources.dll",
+        "lib/net6.0/Terminal.Gui.dll",
+        "lib/net6.0/Terminal.Gui.xml",
+        "lib/net6.0/fr-FR/Terminal.Gui.resources.dll",
+        "lib/net6.0/ja-JP/Terminal.Gui.resources.dll",
+        "lib/net6.0/pt-PT/Terminal.Gui.resources.dll",
+        "lib/netstandard2.0/Terminal.Gui.dll",
+        "lib/netstandard2.0/Terminal.Gui.xml",
+        "lib/netstandard2.0/fr-FR/Terminal.Gui.resources.dll",
+        "lib/netstandard2.0/ja-JP/Terminal.Gui.resources.dll",
+        "lib/netstandard2.0/pt-PT/Terminal.Gui.resources.dll",
+        "logo.png",
+        "terminal.gui.1.8.2.nupkg.sha512",
+        "terminal.gui.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Terminal.Gui >= 1.8.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\madfox99\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\madfox99\\Desktop\\RollDices\\RollDices.csproj",
+      "projectName": "RollDices",
+      "projectPath": "C:\\Users\\madfox99\\Desktop\\RollDices\\RollDices.csproj",
+      "packagesPath": "C:\\Users\\madfox99\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\madfox99\\Desktop\\RollDices\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\madfox99\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Terminal.Gui": {
+            "target": "Package",
+            "version": "[1.8.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

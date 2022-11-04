@@ -1,0 +1,1 @@
+This game only work for windows becasuse most of the C# functions works only in windows.

@@ -1,0 +1,81 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RollDices/1.0.0": {
+        "dependencies": {
+          "Terminal.Gui": "1.8.2"
+        },
+        "runtime": {
+          "RollDices.dll": {}
+        }
+      },
+      "NStack.Core/1.0.3": {
+        "dependencies": {
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NStack.dll": {
+            "assemblyVersion": "1.0.3.0",
+            "fileVersion": "1.0.3.0"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {},
+      "Terminal.Gui/1.8.2": {
+        "dependencies": {
+          "NStack.Core": "1.0.3"
+        },
+        "runtime": {
+          "lib/net6.0/Terminal.Gui.dll": {
+            "assemblyVersion": "1.8.2.0",
+            "fileVersion": "1.8.2.0"
+          }
+        },
+        "resources": {
+          "lib/net6.0/fr-FR/Terminal.Gui.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/net6.0/ja-JP/Terminal.Gui.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net6.0/pt-PT/Terminal.Gui.resources.dll": {
+            "locale": "pt-PT"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RollDices/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NStack.Core/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CvduI58J+1dXFbPfPrBBhhfCexllRfZCTNRU4Ml+ZgYjJBPsh+8FlfKhj7XRDy2Pqn0pybofJIPu46gW30rqdA==",
+      "path": "nstack.core/1.0.3",
+      "hashPath": "nstack.core.1.0.3.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "Terminal.Gui/1.8.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/xdSVuf/BSfsu5ODQZAw5e92GCJWika4P8Wb261ENxJWFgDC3XzpS+HLgJgvH3mdiMTLoC0r7yvLoFUmYM7zpQ==",
+      "path": "terminal.gui/1.8.2",
+      "hashPath": "terminal.gui.1.8.2.nupkg.sha512"
+    }
+  }
+}

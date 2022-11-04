@@ -1,0 +1,10 @@
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\RollDices.exe
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\RollDices.dll
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\RollDices.deps.json
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\RollDices.runtimeconfig.json
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\RollDices.pdb
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\NStack.dll
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\Terminal.Gui.dll
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\fr-FR\Terminal.Gui.resources.dll
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\ja-JP\Terminal.Gui.resources.dll
+C:\Users\madfox99\Desktop\RollDices\bin\Debug\net6.0\publish\pt-PT\Terminal.Gui.resources.dll
