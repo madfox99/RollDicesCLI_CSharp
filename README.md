@@ -1,4 +1,4 @@
-# Roll Dices Game (Terminal.Gui, C#)
+# Roll Dices Game (C#)
 
 Experience the thrill of the Roll Dices game in this simple two-player terminal-based game written in C# using the Terminal.Gui package. Challenge your friends and take turns rolling the dice to reach the highest score.
 
@@ -51,7 +51,7 @@ To create an executable (.exe) file for this project, follow these steps:
 
 Enjoy the excitement of the Roll Dices game on your Windows machine!
 
-**Note:** This game works only on Windows.
+**Note:** This game only for Windows.
 
 ## Application GUI
 ![Main Screen](./images/main.png)
